@@ -1,0 +1,132 @@
+  .box {
+                width: 300px;
+                border: 5px solid white;
+                padding:25px;
+                margin: 125px;
+                margin-left: 500px; 
+                color: whitesmoke;
+                background-color: black;
+                margin-top: -320px;
+                }
+
+body{
+	background-image:url(img/front.jpg);
+    background-size: cover;
+}
+h3{
+    font-size: 15px;
+    color:crimson;
+}
+
+p{
+	color: #FFF;
+	text-transform: capitalize;
+	font-size: 15px;
+	font-weight: 300;
+    margin-left: 600px;
+}
+
+.error{
+	border: 2px solid red; 
+}
+
+.welcome{
+    background-image: url(img/front1.jpg);
+    background-size: cover;
+    width: auto;
+    height: 510px;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 30px;
+	font-weight: 800;
+	color: #fff;
+}
+
+input{
+	font-size: 15px;
+	font-weight: 100;
+	text-transform: capitalize;
+}
+
+button{
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.hidden{
+	display: none;
+}
+
+#main{
+	width:  500px;
+	margin-left: 200px;
+	padding-top: -10px;
+}
+
+#songs{
+	width: 800px;
+
+    margin-right: 20px;
+	font-size: 18px;
+	font-weight: 800;
+    
+}
+
+.current-song-wrapper div {
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 5px;
+}
+
+.current-song-name {
+	font-size: 22px;
+	margin: 0;
+}
+
+.current-song-album {
+	margin: 5px 0;
+}
+
+audio {
+    }
+	width: 340px;
+}
+
+section {
+	padding: 2%;
+}
+
+.player-buttons{
+	text-align: center;
+}
+.current-song-image{
+     width="80";
+    height="80";
+    border="1";
+}
+#song1{
+    margin-left: 20px;
+}
+.user-name{
+    margin-right: 50px;
+}
+
+#virtualdrum{
+    margin-top: -170px;
+}
+
+.current-time{
+    color: aliceblue;
+    margin-left:5px;
+}
+
+tbody{
+  color:red;
+}
+
+table{
+    background-color:aqua;
+}
+.songs_filter{
+    margin-left: 300px;
+}

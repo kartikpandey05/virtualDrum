@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+            <title> Virtual Drum Kit Application | Kartik Pandey </title>
+            <link rel="shortcut icon" href="icon.jpg">
+            <meta name="author" content="Kartik Pandey" >
+            <link rel="stylesheet" href="font-awesome.css">
+			<link rel="stylesheet" href="style.css">
+			<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+		</head>
+		<body>
+			<!-- Welcome Screen Starts -->
+				<div class="welcome">Virtual Drum Kit  <br> <br> <br>
+					<input type="text" placeholder="Enter your name" id="input-name"><br>
+                    <input type="password" placeholder=" Your Password" id="input-password"><br>
+					<button type="button" id="submitbtn">Submit</button>
+                    
+				</div>
+			<!-- Welcome Screen Ends -->
+        
+				<div class="hidden" id="main">
+                    
+                    <p class="user-name"> Welcome </p>
+			
+					<!-- main body content starts -->
+					<table id="songs">
+                        <thead>
+				        <tr>
+								<td>Title</td>
+								<td>Artist</td>
+								<td>Album</td>
+				                <td>Duration</td>
+								</tr>
+				        </thead>
+				<tbody>
+				<tr id='song1' class="song">
+					<td class="song-name"></td>
+				    <td class="song-artist"></td>
+				    <td class="song-album"></td>
+					<td class="song-length"></td>
+                </tr>
+                <tr id='song2' class="song">
+				    <td class="song-name"></td>
+				    <td class="song-artist"></td>
+					<td class="song-album"></td>
+					<td class="song-length"></td>
+				</tr>
+				<tr id='song3' class="song">
+					<td class="song-name"></td>
+					<td class="song-artist"></td>
+					<td class="song-album"></td>
+					<td class="song-length"></td>
+				</tr>
+				<tr id='song4' class="song">
+				    <td class="song-name"></td>
+					<td class="song-artist"></td>
+					<td class="song-album"></td>
+					<td class="song-length"></td>
+				</tr>
+				</tbody>
+				</table>
+					<!-- main body ends -->
+					
+					<!-- clipart part starts -->
+                    <div class="box">
+					<section>
+						<div class="current-song-wrapper">
+							<img class="current-song-image">
+						<div>
+							<p class="current-song-name"></p>
+							<p class="current-song-album"></p>
+						</div>
+						</div>
+						<audio class="audio-song"></audio>
+                        <p class="current-time">CurrentTime</p>
+					</section>
+                     <!-- clipart part ends -->
+					
+                                    <!-- controls part starts -->
+                                    <div class="player-buttons">
+                                   <i class="fa fa-backward" aria-hidden="true"></i> &nbsp;&nbsp;
+                                    <i class="fa fa-play play-pause" aria-hidden="true"></i> &nbsp;&nbsp;
+                                         <i class="fa fa-forward" aria-hidden="true"></i>  
+                                    </div>
+  			                        <!-- controls part ends -->
+				</div>
+                    <div id="virtualdrum">
+                       <a href="drumkit.html"><button>Go To Virtual Drum</button></a>
+                        </div>
+              </div>
+            <!-- Jquery File -->
+			<script src="jquery-3.2.1.js"></script> 
+            <!-- Custom Js File -->
+			<script src="main.js"></script>	
+            <!-- Search Box Script-->
+			<script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script> 
+ 
+		</body>
+</html>
